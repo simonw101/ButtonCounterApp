@@ -6,13 +6,45 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <EditText
+        android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Button"
+        app:layout_constraintBaseline_toBaselineOf="@+id/editText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editText" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a malesuada orci. Donec vestibulum lorem massa, a viverra urna consequat ut. Aliquam fringilla consectetur tempor. Suspendisse ut molestie est. Nulla nec nisi elit. Aliquam vitae massa augue. Praesent vehicula pellentesque est eget suscipit. Sed enim augue, ornare vitae facilisis eu, varius vel orci. Nunc enim neque, efficitur eget magna iaculis, lacinia efficitur neque. Integer molestie velit eget dignissim placerat. Nunc sit amet mauris eu turpis accumsan fringilla ut eu turpis. Integer ipsum nunc, hendrerit vel ante et, aliquam maximus nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a malesuada orci. Donec vestibulum lorem massa, a viverra urna consequat ut. Aliquam fringilla consectetur tempor. Suspendisse ut molestie est. Nulla nec nisi elit. Aliquam vitae massa augue. Praesent vehicula pellentesque est eget suscipit. Sed enim augue, ornare vitae facilisis eu, varius vel orci. Nunc enim neque, efficitur eget magna iaculis, lacinia efficitur neque. Integer molestie velit eget dignissim placerat. Nunc sit amet mauris eu turpis accumsan fringilla ut eu turpis. Integer ipsum nunc, hendrerit vel ante et, aliquam maximus nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a malesuada orci. Donec vestibulum lorem massa, a viverra urna consequat ut. Aliquam fringilla consectetur tempor. Suspendisse ut molestie est. Nulla nec nisi elit. Aliquam vitae massa augue. Praesent vehicula pellentesque est eget suscipit. Sed enim augue, ornare vitae facilisis eu, varius vel orci. Nunc enim neque, efficitur eget magna iaculis, lacinia efficitur neque. Integer molestie velit eget dignissim placerat. Nunc sit amet mauris eu turpis accumsan fringilla ut eu turpis. Integer ipsum nunc, hendrerit vel ante et, aliquam maximus nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a malesuada orci. Donec vestibulum lorem massa, a viverra urna consequat ut. Aliquam fringilla consectetur tempor. Suspendisse ut molestie est. Nulla nec nisi elit. Aliquam vitae massa augue. Praesent vehicula pellentesque est eget suscipit. Sed enim augue, ornare vitae facilisis eu, varius vel orci. Nunc enim neque, efficitur eget magna iaculis, lacinia efficitur neque. Integer molestie velit eget dignissim placerat. Nunc sit amet mauris eu turpis accumsan fringilla ut eu turpis. Integer ipsum nunc, hendrerit vel ante et, aliquam maximus nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a malesuada orci. Donec vestibulum lorem massa, a viverra urna consequat ut. Aliquam fringilla consectetur tempor. Suspendisse ut molestie est. Nulla nec nisi elit. Aliquam vitae massa augue. Praesent vehicula pellentesque est eget suscipit. Sed enim augue, ornare vitae facilisis eu, varius vel orci. Nunc enim neque, efficitur eget magna iaculis, lacinia efficitur neque. Integer molestie velit eget dignissim placerat. Nunc sit amet mauris eu turpis accumsan fringilla ut eu turpis. Integer ipsum nunc, hendrerit vel ante et, aliquam maximus nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a malesuada orci. Donec vestibulum lorem massa, a viverra urna consequat ut. Aliquam fringilla consectetur tempor. Suspendisse ut molestie est. Nulla nec nisi elit. Aliquam vitae massa augue. Praesent vehicula pellentesque est eget suscipit. Sed enim augue, ornare vitae facilisis eu, varius vel orci. Nunc enim neque, efficitur eget magna iaculis, lacinia efficitur neque. Integer molestie velit eget dignissim placerat. Nunc sit amet mauris eu turpis accumsan fringilla ut eu turpis. Integer ipsum nunc, hendrerit vel ante et, aliquam maximus nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a malesuada orci. Donec vestibulum lorem massa, a viverra urna consequat ut. Aliquam fringilla consectetur tempor. Suspendisse ut molestie est. Nulla nec nisi elit. Aliquam vitae massa augue. Praesent vehicula pellentesque est eget suscipit. Sed enim augue, ornare vitae facilisis eu, varius vel orci. Nunc enim neque, efficitur eget magna iaculis, lacinia efficitur neque. Integer molestie velit eget dignissim placerat. Nunc sit amet mauris eu turpis accumsan fringilla ut eu turpis. Integer ipsum nunc, hendrerit vel ante et, aliquam maximus nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a malesuada orci. Donec vestibulum lorem massa, a viverra urna consequat ut. Aliquam fringilla consectetur tempor. Suspendisse ut molestie est. Nulla nec nisi elit. Aliquam vitae massa augue. Praesent vehicula pellentesque est eget suscipit. Sed enim augue, ornare vitae facilisis eu, varius vel orci. Nunc enim neque, efficitur eget magna iaculis, lacinia efficitur neque. Integer molestie velit eget dignissim placerat. Nunc sit amet mauris eu turpis accumsan fringilla ut eu turpis. Integer ipsum nunc, hendrerit vel ante et, aliquam maximus nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a malesuada orci. Donec vestibulum lorem massa, a viverra urna consequat ut. Aliquam fringilla consectetur tempor. Suspendisse ut molestie est. Nulla nec nisi elit. Aliquam vitae massa augue. Praesent vehicula pellentesque est eget suscipit. Sed enim augue, ornare vitae facilisis eu, varius vel orci. Nunc enim neque, efficitur eget magna iaculis, lacinia efficitur neque. Integer molestie velit eget dignissim placerat. Nunc sit amet mauris eu turpis accumsan fringilla ut eu turpis. Integer ipsum nunc, hendrerit vel ante et, aliquam maximus nulla."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
