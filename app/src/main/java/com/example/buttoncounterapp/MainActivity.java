@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
     private TextView textView;
     private EditText userInput;
 
+    private final String TEXT_CONTENTS = "TextContents";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,13 +83,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
         Log.d(TAG, "onRestoreInstanceState: Called");
         super.onRestoreInstanceState(savedInstanceState);
-
+        String saveData = savedInstanceState.getString(TEXT_CONTENTS);
+        textView.setText(saveData);
         Log.d(TAG, "onRestoreInstanceState: finished");
     }
 
     @Override
     protected void onSaveInstanceState(@NonNull Bundle outState) {
         Log.d(TAG, "onSaveInstanceState: Called");
+        outState.putString(TEXT_CONTENTS, textView.getText().toString());
         super.onSaveInstanceState(outState);
 
         Log.d(TAG, "onSaveInstanceState: finished");
